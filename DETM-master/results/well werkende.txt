@@ -1,0 +1,102 @@
+Epoch: 1 .. batch: 10/69 .. LR: 0.0001 .. KL_theta: 1568.72 .. KL_eta: 6617.06 .. KL_alpha: 5527615.36 .. Rec_loss: 18264.36 .. NELBO: 5554065.36
+Epoch: 1 .. batch: 20/69 .. LR: 0.0001 .. KL_theta: 1470.46 .. KL_eta: 6490.76 .. KL_alpha: 5522145.29 .. Rec_loss: 16749.33 .. NELBO: 5546855.74
+Epoch: 1 .. batch: 30/69 .. LR: 0.0001 .. KL_theta: 1468.52 .. KL_eta: 6351.12 .. KL_alpha: 5522766.42 .. Rec_loss: 18283.43 .. NELBO: 5548869.48
+Epoch: 1 .. batch: 40/69 .. LR: 0.0001 .. KL_theta: 1432.47 .. KL_eta: 6226.32 .. KL_alpha: 5528652.57 .. Rec_loss: 20181.78 .. NELBO: 5556493.12
+Epoch: 1 .. batch: 50/69 .. LR: 0.0001 .. KL_theta: 1372.4 .. KL_eta: 6060.83 .. KL_alpha: 5524781.61 .. Rec_loss: 20298.25 .. NELBO: 5552513.06
+Epoch: 1 .. batch: 60/69 .. LR: 0.0001 .. KL_theta: 1296.07 .. KL_eta: 5704.67 .. KL_alpha: 5520224.26 .. Rec_loss: 19856.13 .. NELBO: 5547081.08
+****************************************************************************************************
+Epoch----->1 .. LR: 0.0001 .. KL_theta: 1230.28 .. KL_eta: 5380.45 .. KL_alpha: 5516972.33 .. Rec_loss: 19722.74 .. NELBO: 5543305.76
+****************************************************************************************************
+beta:  torch.Size([5, 8, 194])
+
+
+####################################################################################################
+Visualize topics...
+Topic 0 .. Time: 0 ===> ['vaccineren', 'zelfs', 'idee', 'weg', 'alleen', 'goed', 'hele', 'covid', 'word', 'komen', 'zoveel', 'precies', 'erg', 'mee', 'krijgen', 'geleden', 'beginnen', 'ko
+m', 'virus']
+Topic 0 .. Time: 5 ===> ['maanden', 'nou', 'af', 'niemand', 'hugo', 'verpleegkundigen', 'staan', 'grote', 'groot', 'elkaar', 'genoeg', 'nodig', 'tijd', 'krijgt', 'gommers', 'voorkomen', '
+jaar', 'ziekenhuizen', 'jonge']
+Topic 1 .. Time: 0 ===> ['beter', 'jonge', 'krijgen', 'volgens', 'nou', 'zoals', 'vooral', 'grote', 'marcel', 'net', 'word', 'gebeuren', 'blijven', 'krijgt', 'prikken', 'rolversrijnsburge
+r', 'bedden', 'verder', 'zouden']
+Topic 1 .. Time: 5 ===> ['vooral', 'tini', 'laat', 'gevaccineerd', 'kuipers', 'komen', 'helemaal', 'erg', 'hugo', 'bent', 'bezig', 'leven', 'angst', 'anders', 'verder', 'maandag', 'zoals'
+, 'beter', 'driessen']
+Topic 2 .. Time: 0 ===> ['steeds', 'gewoon', 'blijven', 'eerste', 'nederland', 'zeker', 'mee', 'juist', 'man', 'waar', 'krijgt', 'tijd', 'kuipers', 'wij', 'jansen', 'alle', 'waarom', 'van
+uit', 'rolversrijnsburger']
+Topic 2 .. Time: 5 ===> ['spenkelink', 'weten', 'alle', 'corona', 'vaccineren', 'lang', 'krijgen', 'misschien', 'nee', 'elkaar', 'niks', 'willen', 'eerder', 'zullen', 'weet', 'driessen',
+'hele', 'rolversrijnsburger', 'groep']
+Topic 3 .. Time: 0 ===> ['pas', 'geleden', 'prikken', 'paar', 'moeten', 'hugo', 'steeds', 'doet', 'nederland', 'vanuit', 'eerste', 'nooit', 'waarom', 'week', 'word', 'maken', 'achter', 'j
+ullie', 'krijgt']
+Topic 3 .. Time: 5 ===> ['nieuwe', 'anders', 'vaccinatie', 'blijven', 'krijgen', 'personeel', 'denk', 'tini', 'pas', 'begin', 'groep', 'allemaal', 'jij', 'willen', 'weken', 'heel', 'zegge
+n', 'maakt', 'staat']
+Topic 4 .. Time: 0 ===> ['deel', 'nooit', 'bezig', 'waarom', 'zit', 'vooral', 'elkaar', 'weg', 'kees', 'elke', 'laat', 'stemmen', 'oosterbroek', 'precies', 'zouden', 'rutte', 'vaccineren'
+, 'zitten', 'straks']
+Topic 4 .. Time: 5 ===> ['ic', 'nooit', 'minister', 'aantal', 'waar', 'lijkt', 'mogen', 'net', 'moeten', 'wel', 'alleen', 'inenten', 'bijna', 'minder', 'heel', 'marcel', 'werkt', 'staan',
+ 'zitten']
+
+
+Visualize word embeddings ...
+word: covid .. neighbors: ['covid', 'corona', 'staan', 'grote', 'artsen', 'gevaccineerd', 'tini', 'nieuwe', 'zeggen', 'ank', 'virus', 'zien', 'gaat', 'willen', 'straks', 'nemen', 'jij', '
+dag', 'duidelijk', 'ziekenhuis']
+word: corona .. neighbors: ['corona', 'covid', 'duidelijk', 'denk', 'ziekenhuis', 'gezien', 'nieuwe', 'laat', 'driessen', 'inderdaad', 'kees', 'klaar', 'druk', 'zoals', 'bent', 'stemmen',
+ 'mag', 'elke', 'lang', 'zon']
+####################################################################################################
+****************************************************************************************************
+VAL PPL: 191.9
+****************************************************************************************************
+val_ppl:  191.9
+saving topic matrix beta...
+saving word embedding matrix rho...
+computing validation perplexity...
+****************************************************************************************************
+VAL PPL: 191.9
+****************************************************************************************************
+computing test perplexity...
+****************************************************************************************************
+TEST Doc Completion PPL: 189.3
+****************************************************************************************************
+
+## andere embeddings
+####################################################################################################
+Visualize topics...
+Topic 0 .. Time: 0 ===> ['vaccineren', 'zelfs', 'idee', 'weg', 'alleen', 'goed', 'hele', 'covid', 'word', 'komen', 'zoveel', 'precies', 'erg', 'mee', 'krijgen', 'geleden', 'beginnen', 'ko
+m', 'virus']
+Topic 0 .. Time: 5 ===> ['maanden', 'nou', 'af', 'niemand', 'hugo', 'verpleegkundigen', 'staan', 'grote', 'groot', 'elkaar', 'genoeg', 'nodig', 'tijd', 'krijgt', 'gommers', 'voorkomen', '
+jaar', 'ziekenhuizen', 'jonge']
+Topic 1 .. Time: 0 ===> ['beter', 'jonge', 'krijgen', 'volgens', 'nou', 'zoals', 'vooral', 'grote', 'marcel', 'net', 'word', 'gebeuren', 'blijven', 'krijgt', 'prikken', 'rolversrijnsburge
+r', 'bedden', 'verder', 'zouden']
+Topic 1 .. Time: 5 ===> ['vooral', 'tini', 'laat', 'gevaccineerd', 'kuipers', 'komen', 'helemaal', 'erg', 'hugo', 'bent', 'bezig', 'leven', 'angst', 'anders', 'verder', 'maandag', 'zoals'
+, 'beter', 'driessen']
+Topic 2 .. Time: 0 ===> ['steeds', 'gewoon', 'blijven', 'eerste', 'nederland', 'zeker', 'mee', 'juist', 'man', 'waar', 'krijgt', 'tijd', 'kuipers', 'wij', 'jansen', 'alle', 'waarom', 'van
+uit', 'rolversrijnsburger']
+Topic 2 .. Time: 5 ===> ['spenkelink', 'weten', 'alle', 'corona', 'vaccineren', 'lang', 'krijgen', 'misschien', 'nee', 'elkaar', 'niks', 'willen', 'eerder', 'zullen', 'weet', 'driessen',
+'hele', 'rolversrijnsburger', 'groep']
+Topic 3 .. Time: 0 ===> ['pas', 'geleden', 'prikken', 'paar', 'moeten', 'hugo', 'steeds', 'doet', 'nederland', 'vanuit', 'eerste', 'nooit', 'waarom', 'week', 'word', 'maken', 'achter', 'j
+ullie', 'krijgt']
+Topic 3 .. Time: 5 ===> ['nieuwe', 'anders', 'vaccinatie', 'blijven', 'krijgen', 'personeel', 'denk', 'tini', 'pas', 'begin', 'groep', 'allemaal', 'jij', 'willen', 'weken', 'heel', 'zegge
+n', 'maakt', 'staat']
+Topic 4 .. Time: 0 ===> ['deel', 'nooit', 'bezig', 'waarom', 'zit', 'vooral', 'elkaar', 'weg', 'kees', 'elke', 'laat', 'stemmen', 'oosterbroek', 'precies', 'zouden', 'rutte', 'vaccineren'
+, 'zitten', 'straks']
+Topic 4 .. Time: 5 ===> ['ic', 'nooit', 'minister', 'aantal', 'waar', 'lijkt', 'mogen', 'net', 'moeten', 'wel', 'alleen', 'inenten', 'bijna', 'minder', 'heel', 'marcel', 'werkt', 'staan',
+ 'zitten']
+
+
+Visualize word embeddings ...
+word: covid .. neighbors: ['covid', 'corona', 'staan', 'grote', 'artsen', 'gevaccineerd', 'tini', 'nieuwe', 'zeggen', 'ank', 'virus', 'zien', 'gaat', 'willen', 'straks', 'nemen', 'jij', '
+dag', 'duidelijk', 'ziekenhuis']
+word: corona .. neighbors: ['corona', 'covid', 'duidelijk', 'denk', 'ziekenhuis', 'gezien', 'nieuwe', 'laat', 'driessen', 'inderdaad', 'kees', 'klaar', 'druk', 'zoals', 'bent', 'stemmen',
+ 'mag', 'elke', 'lang', 'zon']
+
+****************************************************************************************************
+val_ppl:  191.9
+saving topic matrix beta...
+saving word embedding matrix rho...
+computing validation perplexity...
+****************************************************************************************************
+VAL PPL: 191.9
+****************************************************************************************************
+computing test perplexity...
+***************************************************************************************
+*************
+TEST Doc Completion PPL: 189.3
+*******************************************************************************************
+*********

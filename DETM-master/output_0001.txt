@@ -1,0 +1,336 @@
+###
+Visualize topics...
+Topic 0 .. Time: 0 ===> ['mensen', 'vaccinatie', 'blijft', 'vaccineren', 'weet', 'ga', 'gev
+al', 'krijgt', 'frank', 'bezig', 'wappie', 'termijn', 'testen', 'kees', 'reageren', 'lange'
+, 'goede', 'markt', 'overleden']
+Topic 0 .. Time: 10 ===> ['eerlijk', 'lekker', 'vaccineren', 'werkt', 'nieuws', 'gezet', 'g
+elukkig', 'helemaal', 'sorry', 'bang', 'euro', 'vaccins', 'vergeten', 'bron', 'bijwerkingen
+', 'manier', 'moment', 'zn', 'geld']
+Topic 0 .. Time: 30 ===> ['prik', 'hoofdpijn', 'zegt', 'propaganda', 'roepen', 'familie', '
+ziekte', 'geeft', 'horen', 'martin', 'school', 'artsen', 'normale', 'voren', 'soort', 'bete
+kent', 'richard', 'zeiken', 'idee']
+Topic 1 .. Time: 0 ===> ['hele', 'conclusie', 'hugo', 'wereld', 'info', 'taal', 'groep', 'e
+dwin', 'oma', 'zak', 'slaap', 'ema', 'hand', 'klinkt', 'tientallen', 'medicatie', 'smit', '
+dank', 'nodig']
+Topic 1 .. Time: 10 ===> ['goed', 'zeggen', 'zorgen', 'eric', 'gewone', 'vindt', 'bekend',
+'weken', 'verhaal', 'beste', 'groep', 'hoeveel', 'succes', 'dagen', 'zegt', 'klagen', 'schr
+ijven', 'mondkapje', 'media']
+Topic 1 .. Time: 30 ===> ['weet', 'krijgt', 'jaar', 'nos', 'ene', 'blijft', 'zetten', 'verw
+oert', 'ga', 'groot', 'vaccins', 'msm', 'lastig', 'personeel', 'voelt', 'not', 'ziek', 'leg
+', 'keuze']
+Topic 2 .. Time: 0 ===> ['medicijnen', 'jaren', 'recht', 'wens', 'gevaccineerden', 'maatreg
+elen', 'werk', 'goede', 'kijk', 'fase', 'gestudeerd', 'medicijn', 'bijzonder', 'direct', 'c
+ellen', 'wakker', 'zitten', 'dragen', 'vertrouwen']
+Topic 2 .. Time: 10 ===> ['weet', 'vertrouwen', 'corona', 'prik', 'hoop', 'jaren', 'polio',
+ 'cijfers', 'goed', 'moeder', 'poppenkast', 'hele', 'liegen', 'één', 'zorg', 'werk', 'klini
+sche', 'risico', 'spuit']
+Topic 2 .. Time: 30 ===> ['verpleegkundige', 'zorgen', 'helemaal', 'klein', 'samenleving',
+'ziekenhuizen', 'lachen', 'voel', 'zorg', 'gevaarlijk', 'engel', 'antwoord', 'allemaal', 'n
+auwelijks', 'linda', 'dom', 'ruim', 'totaal', 'fijn']
+Topic 3 .. Time: 0 ===> ['neemt', 'überhaupt', 'gif', 'vast', 'bezig', 'nieuwe', 'gevolg',
+'wachten', 'wetenschap', 'ouderen', 'weten', 'keuze', 'qua', 'houden', 'bos', 'snel', 'bloe
+d', 'medicatie', 'vrouwen']
+Topic 3 .. Time: 10 ===> ['weet', 'snap', 'jaar', 'wacht', 'lichaam', 'griep', 'zeggen', 'a
+ntwoorden', 'krijgen', 'dag', 'domme', 'mooi', 'cijfers', 'gedaan', 'getest', 'sterft', 'ni
+e', 'groep', 'suzanne']
+Topic 3 .. Time: 30 ===> ['gelukkig', 'maatregelen', 'euro', 'jong', 'uitleggen', 'overheid
+', 'hugo', 'griep', 'reactie', 'controle', 'hè', 'economie', 'testen', 'terug', 'richard',
+'nadenken', 'china', 'ontwikkeld', 'facebook']
+Topic 4 .. Time: 0 ===> ['eiwit', 'bedrijven', 'mondkapje', 'volk', 'enkele', 'meningen', '
+ver', 'complot', 'gek', 'voorlopig', 'lucht', 'soort', 'jolanda', 'aantal', 'ziekten', 'gew
+orden', 'info', 'hoop', 'schrijven']
+Topic 4 .. Time: 10 ===> ['persoon', 'jaar', 'nederland', 'zitten', 'grootste', 'corona', '
+normaal', 'lange', 'rij', 'klopt', 'lees', 'vinden', 'kinderen', 'hart', 'mee', 'sneller',
+'schrijft', 'proberen', 'vries']
+Topic 4 .. Time: 30 ===> ['nederlanders', 'virus', 'prik', 'verwacht', 'gisteren', 'bewijs'
+, 'bestaat', 'gevaccineerd', 'mening', 'maatregelen', 'vrijheid', 'verspreiding', 'tuurlijk
+', 'mexicaanse', 'stel', 'nieuws', 'laatste', 'oud', 'keer']
+
+
+Visualize word embeddings ...
+word: corona .. neighbors: ['corona', 'normaal', 'mensen', 'jaar', 'zon', 'hele', 'weet', '
+vaccinatie', 'helemaal', 'and', 'gek', 'gezonde', 'vaccin', 'kans', 'risico', 'staan', 'goe
+d', 'facebook', 'vast', 'idee']
+word: vaccin .. neighbors: ['vaccin', 'goed', 'virus', 'mensen', 'jaar', 'zit', 'snel', 'ke
+uze', 'regering', 'duidelijk', 'normaal', 'sterven', 'kijk', 'test', 'bijwerkingen', 'griep
+', 'vaccinatie', 'cijfers', 'weet', 'neemt']
+word: prik .. neighbors: ['prik', 'virus', 'nodig', 'kees', 'rest', 'mensen', 'spuiten', 's
+ysteem', 'geloof', 'artsen', 'hele', 'hoop', 'vaccineren', 'kent', 'overheid', 'will', 'jaa
+r', 'stelt', 'beek', 'echte']
+word: oma .. neighbors: ['oma', 'social', 'duitsland', 'leren', 'doel', 'vreselijk', 'rare'
+, 'ma', 'miranda', 'verdiepen', 'spreken', 'loes', 'will', 'daarmee', 'plussers', 'carla',
+'laura', 'vrijwillig', 'sites', 'argumenten']
+word: oude .. neighbors: ['oude', 'lianne', 'resultaat', 'jaren', 'bedoeling', 'idioot', 'o
+pa', 'goh', 'aangepast', 'uitgelegd', 'mannen', 'hoek', 'farmaceuten', 'ontwikkeld', 'apart
+', 'toeval', 'persoon', 'proef', 'oplossing', 'geloofd']
+word: bescherming .. neighbors: ['bescherming', 'allerlei', 'jorg', 'berichten', 'antwoorde
+n', 'wilt', 'ingespoten', 'betalen', 'astrazeneca', 'hiv', 'gebeurd', 'erik', 'onderbouwing
+', 'kant', 'verband', 'binnen', 'doordat', 'deur', 'what', 'es']
+word: bijwerkingen .. neighbors: ['bijwerkingen', 'normaal', 'mensen', 'vaccin', 'vaccinere
+n', 'allang', 'hoeveel', 'goed', 'werken', 'leren', 'kans', 'buiten', 'dood', 'overlijden',
+ 'facebook', 'zetten', 'tuurlijk', 'oma', 'problemen', 'wakker']
+###########################################################################################
+#########
+*******************************************************************************************
+*********
+VAL PPL: nan
+*******************************************************************************************
+*********
+val_ppl:  nan
+
+
+###########################################################################################
+#########
+Visualize topics...
+Topic 0 .. Time: 0 ===> ['mensen', 'weet', 'vaccinatie', 'vaccineren', 'ga', 'krijgt', 'ter
+mijn', 'lange', 'blijft', 'virus', 'geval', 'kees', 'zien', 'testen', 'bezig', 'vaccin', 'h
+oop', 'ouderen', 'jonge']
+Topic 0 .. Time: 10 ===> ['vaccineren', 'lekker', 'werkt', 'helemaal', 'vaccins', 'bijwerki
+ngen', 'eerlijk', 'gelukkig', 'nieuws', 'bang', 'geld', 'sorry', 'mensen', 'rutte', 'hele',
+ 'jaren', 'zn', 'normaal', 'gezet']
+Topic 0 .. Time: 30 ===> ['prik', 'zegt', 'familie', 'propaganda', 'roepen', 'horen', 'ziek
+te', 'hoofdpijn', 'geeft', 'martin', 'soort', 'richard', 'artsen', 'my', 'positieve', 'bepa
+len', 'mogelijk', 'idee', 'zien']
+Topic 1 .. Time: 0 ===> ['hele', 'hugo', 'wereld', 'groep', 'conclusie', 'info', 'ema', 'ha
+nd', 'smit', 'danny', 'zie', 'opmerking', 'gebeuren', 'mee', 'wetenschappelijke', 'rna', 't
+aal', 'oma', 'nodig']
+Topic 1 .. Time: 10 ===> ['goed', 'zeggen', 'eric', 'zorgen', 'vindt', 'bekend', 'verhaal',
+ 'mondkapje', 'succes', 'zegt', 'groep', 'gewone', 'mensen', 'ouderen', 'weken', 'hoeveel',
+ 'stoppen', 'media', 'dagen']
+Topic 1 .. Time: 30 ===> ['weet', 'jaar', 'krijgt', 'vaccins', 'nos', 'ziek', 'blijft', 'ga
+', 'groot', 'personeel', 'corona', 'keuze', 'ene', 'zetten', 'nederland', 'vragen', 'fijne'
+, 'zitten', 'voelt']
+Topic 2 .. Time: 0 ===> ['medicijnen', 'jaren', 'werk', 'maatregelen', 'recht', 'goede', 'm
+edicijn', 'zitten', 'weten', 'fase', 'rutte', 'getest', 'gevaccineerden', 'vaccins', 'kijk'
+, 'wakker', 'direct', 'vrouwen', 'gebruikt']
+Topic 2 .. Time: 10 ===> ['weet', 'corona', 'goed', 'vaccin', 'vertrouwen', 'jaren', 'prik'
+, 'hoop', 'zorg', 'bijwerkingen', 'polio', 'hele', 'virus', 'risico', 'allemaal', 'cijfers'
+, 'onderzoek', 'werk', 'dag']
+Topic 2 .. Time: 30 ===> ['helemaal', 'ziekenhuizen', 'zorg', 'allemaal', 'goed', 'nodig',
+'griep', 'zorgen', 'klein', 'vaccin', 'beter', 'dom', 'mee', 'verpleegkundige', 'zegt', 'la
+atste', 'geeft', 'totaal', 'zoveel']
+Topic 3 .. Time: 0 ===> ['neemt', 'weten', 'nieuwe', 'goed', 'vast', 'ouderen', 'wetenschap
+', 'überhaupt', 'snel', 'houden', 'gif', 'bezig', 'wachten', 'bijwerkingen', 'keuze', 'zie'
+, 'vaccine', 'antwoord', 'qua']
+Topic 3 .. Time: 10 ===> ['weet', 'krijgen', 'jaar', 'griep', 'snap', 'dag', 'zeggen', 'moo
+i', 'lichaam', 'vaccinatie', 'wacht', 'getest', 'groep', 'kijk', 'ga', 'nieuws', 'zit', 'ge
+daan', 'leven']
+Topic 3 .. Time: 30 ===> ['maatregelen', 'gelukkig', 'euro', 'reactie', 'griep', 'overheid'
+, 'jong', 'houden', 'hugo', 'hè', 'testen', 'ziekenhuis', 'snel', 'zeer', 'terug', 'control
+e', 'richard', 'krijgen', 'staat']
+Topic 4 .. Time: 0 ===> ['bedrijven', 'termijn', 'eiwit', 'mondkapje', 'volk', 'complot', '
+aantal', 'enkele', 'gek', 'vragen', 'meningen', 'zet', 'ver', 'vaccineren', 'mensen', 'soor
+t', 'hoop', 'zon', 'mooi']
+Topic 4 .. Time: 10 ===> ['nederland', 'jaar', 'mee', 'zitten', 'normaal', 'klopt', 'corona
+', 'zorg', 'werkt', 'ga', 'vinden', 'persoon', 'lange', 'weten', 'vraag', 'lees', 'kinderen
+', 'rij', 'vries']
+Topic 4 .. Time: 30 ===> ['virus', 'prik', 'mensen', 'gevaccineerd', 'bewijs', 'maatregelen
+', 'bestaat', 'mening', 'nederlanders', 'verwacht', 'nederland', 'keer', 'nieuws', 'vaccins
+', 'kans', 'gisteren', 'gehouden', 'rutte', 'getest']
+
+
+Visualize word embeddings ...
+word: corona .. neighbors: ['corona', 'mensen', 'jaar', 'normaal', 'vaccin', 'vaccinatie',
+'goed', 'weet', 'zon', 'hele', 'helemaal', 'risico', 'zeggen', 'vaccins', 'leven', 'zien',
+'staat', 'kans', 'virus', 'staan']
+word: vaccin .. neighbors: ['vaccin', 'goed', 'mensen', 'jaar', 'virus', 'zit', 'corona', '
+vaccinatie', 'bijwerkingen', 'weet', 'griep', 'normaal', 'zeggen', 'kijk', 'vaccineren', 's
+nel', 'mening', 'duidelijk', 'regering', 'krijgen']
+word: prik .. neighbors: ['prik', 'virus', 'mensen', 'nodig', 'spuiten', 'rest', 'jaar', 'h
+ele', 'vaccineren', 'corona', 'overheid', 'zien', 'geloof', 'lang', 'artsen', 'hoop', 'grot
+e', 'leven', 'zitten', 'bestaat']
+word: oma .. neighbors: ['oma', 'social', 'plussers', 'ma', 'duitsland', 'maurice', 'vresel
+ijk', 'bram', 'pfff', 'sites', 'miranda', 'rare', 'loes', 'doel', 'verdiepen', 'neer', 'sof
+tenon', 'laura', 'boos', 'minister']
+word: oude .. neighbors: ['oude', 'lianne', 'resultaat', 'hoek', 'opa', 'idioot', 'aangepas
+t', 'goh', 'proef', 'bedoeling', 'oplossing', 'mannen', 'ontwikkeld', 'toeval', 'erwin', 'u
+p', 'ics', 'apart', 'geloofd', 'uitgelegd']
+word: bescherming .. neighbors: ['bescherming', 'allerlei', 'antwoorden', 'berichten', 'hiv
+', 'ingespoten', 'diverse', 'what', 'onderbouwing', 'doordat', 'erik', 'astrazeneca', 'jorg
+', 'verband', 'kost', 'doelgroep', 'grond', 'betalen', 'aandoening', 'wilt']
+word: bijwerkingen .. neighbors: ['bijwerkingen', 'mensen', 'vaccin', 'vaccineren', 'goed',
+ 'normaal', 'ga', 'dood', 'lichaam', 'krijgen', 'dag', 'kans', 'termijn', 'weten', 'zeggen'
+, 'helemaal', 'onderzoek', 'zorg', 'hoeveel', 'virus']
+###########################################################################################
+#########
+*******************************************************************************************
+*********
+VAL PPL: nan
+*******************************************************************************************
+*********
+val_ppl:  nan
+
+
+###########################################################################################
+#########
+Visualize topics...
+Topic 0 .. Time: 0 ===> ['mensen', 'weet', 'vaccinatie', 'ga', 'vaccineren', 'vaccin', 'lan
+ge', 'virus', 'termijn', 'krijgt', 'zien', 'zit', 'goed', 'blijft', 'jonge', 'testen', 'ned
+erland', 'getest', 'griep']
+Topic 0 .. Time: 10 ===> ['vaccineren', 'lekker', 'vaccins', 'helemaal', 'werkt', 'bijwerki
+ngen', 'nieuws', 'mensen', 'gelukkig', 'weet', 'tijd', 'rutte', 'geld', 'hele', 'normaal',
+'bang', 'jaren', 'krijgen', 'reactie']
+Topic 0 .. Time: 30 ===> ['prik', 'zegt', 'familie', 'propaganda', 'ziekte', 'positieve', '
+zien', 'mogelijk', 'my', 'roepen', 'horen', 'geeft', 'artsen', 'soort', 'hoofdpijn', 'richa
+rd', 'idee', 'kortenaar', 'zorg']
+Topic 1 .. Time: 0 ===> ['hugo', 'hele', 'wereld', 'groep', 'gebeuren', 'ema', 'zie', 'smit
+', 'wetenschappelijke', 'hand', 'conclusie', 'opmerking', 'rna', 'info', 'mee', 'zoveel', '
+overheid', 'normaal', 'danny']
+Topic 1 .. Time: 10 ===> ['goed', 'zeggen', 'mensen', 'zorgen', 'vindt', 'eric', 'bekend',
+'zegt', 'mondkapje', 'ouderen', 'groep', 'gele', 'succes', 'stoppen', 'verhaal', 'lezen', '
+gewone', 'doden', 'media']
+Topic 1 .. Time: 30 ===> ['jaar', 'weet', 'krijgt', 'vaccins', 'ziek', 'personeel', 'blijft
+', 'nos', 'nederland', 'corona', 'ga', 'zitten', 'groot', 'gezegd', 'zegt', 'geloven', 'keu
+ze', 'vragen', 'fijne']
+Topic 2 .. Time: 0 ===> ['medicijnen', 'maatregelen', 'jaren', 'werk', 'weten', 'zitten', '
+rutte', 'vaccins', 'getest', 'goede', 'recht', 'medicijn', 'fase', 'gebruikt', 'beter', 'la
+atste', 'jaar', 'vrouwen', 'wakker']
+Topic 2 .. Time: 10 ===> ['corona', 'weet', 'vaccin', 'goed', 'jaren', 'mensen', 'prik', 'b
+ijwerkingen', 'allemaal', 'zorg', 'virus', 'vertrouwen', 'hoop', 'dag', 'onderzoek', 'hele'
+, 'risico', 'vaccinatie', 'gevaccineerd']
+Topic 2 .. Time: 30 ===> ['helemaal', 'goed', 'vaccin', 'ziekenhuizen', 'vaccineren', 'zorg
+', 'allemaal', 'beter', 'griep', 'nodig', 'tijd', 'zegt', 'klein', 'dom', 'mee', 'ziek', 'g
+eeft', 'mensen', 'krijgen']
+Topic 3 .. Time: 0 ===> ['goed', 'weten', 'neemt', 'ouderen', 'snel', 'nieuwe', 'vast', 'bi
+jwerkingen', 'wetenschap', 'houden', 'zie', 'wachten', 'überhaupt', 'bezig', 'helemaal', 'v
+ragen', 'antwoord', 'vaccine', 'gif']
+Topic 3 .. Time: 10 ===> ['weet', 'krijgen', 'jaar', 'griep', 'vaccin', 'dag', 'zeggen', 'v
+accinatie', 'ga', 'snap', 'kijk', 'lichaam', 'leven', 'nieuws', 'getest', 'groep', 'mooi',
+'wacht', 'zit']
+Topic 3 .. Time: 30 ===> ['maatregelen', 'ziekenhuis', 'reactie', 'houden', 'gelukkig', 'ov
+erheid', 'griep', 'euro', 'snel', 'krijgen', 'hè', 'staat', 'lekker', 'hugo', 'richard', 'c
+ontrole', 'terug', 'zeer', 'testen']
+Topic 4 .. Time: 0 ===> ['mensen', 'termijn', 'bedrijven', 'gek', 'danny', 'complot', 'mond
+kapje', 'vragen', 'mooi', 'vaccineren', 'aantal', 'vries', 'volk', 'hoop', 'bijwerkingen',
+'hele', 'bart', 'zon', 'soort']
+Topic 4 .. Time: 10 ===> ['nederland', 'mee', 'zitten', 'normaal', 'jaar', 'klopt', 'ga', '
+werkt', 'zorg', 'vraag', 'weten', 'vinden', 'corona', 'krijgen', 'lees', 'kinderen', 'lange
+', 'geld', 'keer']
+Topic 4 .. Time: 30 ===> ['virus', 'mensen', 'prik', 'gevaccineerd', 'maatregelen', 'nederl
+and', 'mening', 'bewijs', 'keer', 'vaccins', 'zegt', 'kans', 'bestaat', 'rutte', 'nieuws',
+'binnen', 'getest', 'laatste', 'gehouden']
+
+
+Visualize word embeddings ...
+word: corona .. neighbors: ['corona', 'mensen', 'jaar', 'vaccin', 'goed', 'vaccinatie', 'no
+rmaal', 'weet', 'zon', 'helemaal', 'hele', 'vaccins', 'zeggen', 'allemaal', 'virus', 'staat
+', 'gevaccineerd', 'leven', 'risico', 'zien']
+word: vaccin .. neighbors: ['vaccin', 'goed', 'mensen', 'jaar', 'virus', 'corona', 'zit', '
+weet', 'vaccinatie', 'bijwerkingen', 'griep', 'zeggen', 'vaccineren', 'helemaal', 'kijk', '
+normaal', 'krijgen', 'allemaal', 'mening', 'maanden']
+word: prik .. neighbors: ['prik', 'mensen', 'virus', 'nodig', 'jaar', 'spuiten', 'corona',
+'hele', 'vaccineren', 'zien', 'leven', 'lang', 'weet', 'rest', 'dom', 'goed', 'geloof', 'va
+ccins', 'overheid', 'gevaccineerd']
+word: oma .. neighbors: ['oma', 'social', 'plussers', 'ma', 'maurice', 'bram', 'sites', 'pf
+ff', 'shie', 'loes', 'vergif', 'meesten', 'verdiepen', 'logica', 'doelgroep', 'boos', 'draa
+ien', 'mar', 'deur', 'klagen']
+word: oude .. neighbors: ['oude', 'lianne', 'aangepast', 'resultaat', 'opa', 'mannen', 'pro
+ef', 'goh', 'ics', 'idioot', 'slot', 'hoek', 'bedoeling', 'apart', 'toeval', 'up', 'erwin',
+ 'belang', 'ontwikkeld', 'farmaceuten']
+word: bescherming .. neighbors: ['bescherming', 'ingespoten', 'allerlei', 'antwoorden', 'on
+derbouwing', 'diverse', 'what', 'kost', 'goedkeuring', 'astrazeneca', 'berichten', 'consequ
+enties', 'doordat', 'grond', 'aandoening', 'hiv', 'vs', 'buitenland', 'doelgroep', 'jorg']
+word: bijwerkingen .. neighbors: ['bijwerkingen', 'mensen', 'vaccin', 'vaccineren', 'goed',
+ 'ga', 'normaal', 'helemaal', 'krijgen', 'dood', 'dag', 'lichaam', 'weten', 'zeggen', 'coro
+na', 'virus', 'onderzoek', 'jaren', 'termijn', 'zorg']
+###########################################################################################
+#########
+*******************************************************************************************
+*********
+VAL PPL: nan
+*******************************************************************************************
+*********
+val_ppl:  nan
+
+###########################################################################################
+#########
+Visualize topics...
+Topic 0 .. Time: 0 ===> ['mensen', 'weet', 'vaccin', 'vaccinatie', 'virus', 'vaccineren', '
+ga', 'lange', 'termijn', 'goed', 'krijgt', 'jonge', 'zit', 'zien', 'nederland', 'lekker', '
+getest', 'griep', 'blijft']
+Topic 0 .. Time: 10 ===> ['vaccineren', 'lekker', 'vaccins', 'helemaal', 'bijwerkingen', 'm
+ensen', 'werkt', 'weet', 'nieuws', 'geld', 'gelukkig', 'vaccin', 'tijd', 'reactie', 'krijge
+n', 'klopt', 'rutte', 'hele', 'jaren']
+Topic 0 .. Time: 30 ===> ['prik', 'zegt', 'familie', 'zien', 'propaganda', 'mogelijk', 'zor
+g', 'ziekte', 'artsen', 'idee', 'kortenaar', 'stemmen', 'positieve', 'nodig', 'geeft', 'roe
+pen', 'my', 'jaap', 'krijgt']
+Topic 1 .. Time: 0 ===> ['hugo', 'hele', 'wereld', 'groep', 'zoveel', 'overheid', 'mee', 'z
+ie', 'nieuwe', 'gebeuren', 'rna', 'auto', 'opmerking', 'ema', 'wetenschappelijke', 'smit',
+'hand', 'danny', 'zit']
+Topic 1 .. Time: 10 ===> ['goed', 'zeggen', 'mensen', 'eric', 'gele', 'zegt', 'zorgen', 'vi
+ndt', 'ouderen', 'bekend', 'mondkapje', 'doden', 'groep', 'succes', 'lezen', 'corona', 'spu
+it', 'joke', 'verhaal']
+Topic 1 .. Time: 30 ===> ['jaar', 'vaccins', 'weet', 'ziek', 'krijgt', 'personeel', 'corona
+', 'nederland', 'blijft', 'zitten', 'nos', 'zegt', 'vaccinatie', 'groot', 'vragen', 'ga', '
+allemaal', 'gezegd', 'geloven']
+Topic 2 .. Time: 0 ===> ['medicijnen', 'jaren', 'zitten', 'vaccins', 'maatregelen', 'rutte'
+, 'weten', 'werk', 'medicijn', 'beter', 'getest', 'goede', 'fase', 'corona', 'recht', 'geef
+', 'jaar', 'gebruikt', 'sars']
+Topic 2 .. Time: 10 ===> ['vaccin', 'corona', 'weet', 'goed', 'mensen', 'jaren', 'bijwerkin
+gen', 'allemaal', 'virus', 'zorg', 'prik', 'dag', 'vaccinatie', 'onderzoek', 'gevaccineerd'
+, 'beter', 'vertrouwen', 'hoop', 'hele']
+Topic 2 .. Time: 30 ===> ['helemaal', 'vaccin', 'goed', 'vaccineren', 'ziekenhuizen', 'zorg
+', 'beter', 'allemaal', 'griep', 'zegt', 'nodig', 'mensen', 'tijd', 'weet', 'geeft', 'mee',
+ 'ziek', 'klein', 'hele']
+Topic 3 .. Time: 0 ===> ['goed', 'snel', 'weten', 'ouderen', 'nieuwe', 'bijwerkingen', 'wet
+enschap', 'mee', 'neemt', 'houden', 'helemaal', 'vragen', 'vast', 'wachten', 'antwoord', 'k
+lopt', 'zie', 'werken', 'bezig']
+Topic 3 .. Time: 10 ===> ['weet', 'vaccin', 'krijgen', 'jaar', 'vaccinatie', 'ga', 'zeggen'
+, 'griep', 'dag', 'kijk', 'lichaam', 'leven', 'snap', 'nieuws', 'overheid', 'groep', 'zit',
+ 'getest', 'lees']
+Topic 3 .. Time: 30 ===> ['ziekenhuis', 'maatregelen', 'houden', 'staat', 'reactie', 'snel'
+, 'griep', 'krijgen', 'overheid', 'terug', 'lekker', 'gelukkig', 'hè', 'richard', 'testen',
+ 'zeer', 'euro', 'hugo', 'graag']
+Topic 4 .. Time: 0 ===> ['mensen', 'termijn', 'vaccin', 'vaccineren', 'vries', 'gek', 'comp
+lot', 'vragen', 'bedrijven', 'hele', 'danny', 'bijwerkingen', 'hoop', 'mooi', 'mondkapje',
+'china', 'aantal', 'mee', 'bart']
+Topic 4 .. Time: 10 ===> ['nederland', 'zitten', 'mee', 'normaal', 'werkt', 'jaar', 'klopt'
+, 'ga', 'weten', 'vraag', 'krijgen', 'zorg', 'kinderen', 'vinden', 'geld', 'lekker', 'lees'
+, 'corona', 'zien']
+Topic 4 .. Time: 30 ===> ['mensen', 'virus', 'prik', 'gevaccineerd', 'zegt', 'nederland', '
+maatregelen', 'keer', 'vaccins', 'binnen', 'kans', 'bewijs', 'rutte', 'beter', 'nieuws', 'm
+ening', 'jaar', 'bestaat', 'laatste']
+
+
+Visualize word embeddings ...
+word: corona .. neighbors: ['corona', 'mensen', 'jaar', 'vaccin', 'goed', 'vaccinatie', 'we
+et', 'normaal', 'helemaal', 'zon', 'zeggen', 'allemaal', 'vaccins', 'hele', 'virus', 'leven
+', 'bijwerkingen', 'staat', 'gevaccineerd', 'zit']
+word: vaccin .. neighbors: ['vaccin', 'goed', 'mensen', 'jaar', 'virus', 'corona', 'zit', '
+weet', 'bijwerkingen', 'vaccinatie', 'griep', 'zeggen', 'helemaal', 'vaccineren', 'allemaal
+', 'krijgen', 'kijk', 'normaal', 'ziek', 'maanden']
+word: prik .. neighbors: ['prik', 'mensen', 'virus', 'nodig', 'corona', 'jaar', 'zien', 'va
+ccineren', 'leven', 'hele', 'goed', 'vaccin', 'weet', 'helemaal', 'spuiten', 'zitten', 'gev
+accineerd', 'vaccins', 'staat', 'grote']
+word: oma .. neighbors: ['oma', 'plussers', 'meesten', 'bram', 'maurice', 'ma', 'sites', 'l
+oes', 'shie', 'pfff', 'logica', 'draaien', 'social', 'deur', 'mar', 'klagen', 'vond', 'doel
+groep', 'vergif', 'kanten']
+word: oude .. neighbors: ['oude', 'mannen', 'opa', 'lianne', 'proef', 'idioot', 'slot', 'ic
+s', 'goh', 'toeval', 'resultaat', 'ine', 'gekeurd', 'natalie', 'aangepast', 'bedoeling', 'h
+oek', 'da', 'paracetamol', 'afstand']
+word: bescherming .. neighbors: ['bescherming', 'diverse', 'ingespoten', 'onderbouwing', 'a
+ntwoorden', 'what', 'kost', 'astrazeneca', 'allerlei', 'goedkeuring', 'doordat', 'vs', 'aan
+doening', 'saskia', 'verband', 'doelgroep', 'berichten', 'europa', 'astra', 'nut']
+word: bijwerkingen .. neighbors: ['bijwerkingen', 'mensen', 'vaccin', 'vaccineren', 'goed',
+ 'ga', 'normaal', 'helemaal', 'krijgen', 'corona', 'dag', 'zeggen', 'onderzoek', 'weten', '
+dood', 'virus', 'lichaam', 'zorg', 'jaar', 'jaren']
+###########################################################################################
+#########
+*******************************************************************************************
+*********
+VAL PPL: nan
+*******************************************************************************************
+*********
+val_ppl:  nan
+saving topic matrix beta...
+saving word embedding matrix rho...
+computing validation perplexity...
+*******************************************************************************************
+*********
+VAL PPL: nan
+*******************************************************************************************
+*********
+computing test perplexity...
+****************************************************************************************************
+TEST Doc Completion PPL: nan
+****************************************************************************************************

@@ -1,0 +1,98 @@
+Topic 0: ['wel', 'jij', 'goed', 'nou', 'echt', 'gewoon', 'weer', 'hoor', 'lekker']
+Topic 1: ['mensen', 'vaccin', 'corona', 'vaccinatie', 'jaar', 'vaccineren', 'virus', 'wel',
+ 'moeten']
+Topic 2: ['jij', 'wel', 'nou', 'lekker', 'hoor', 'echt', 'gewoon', 'jou', 'den']
+Topic 3: ['wel', 'jij', 'nou', 'goed', 'hoor', 'gewoon', 'echt', 'lekker', 'weer']
+Topic 4: ['wel', 'mensen', 'jij', 'goed', 'gaan', 'weer', 'vaccin', 'gaat', 'echt']
+Topic 5: ['wel', 'mensen', 'goed', 'jij', 'vaccin', 'gaan', 'weer', 'gaat', 'waar']
+Topic 6: ['jij', 'wel', 'nou', 'lekker', 'hoor', 'den', 'ga', 'jou', 'bent']
+Topic 7: ['wel', 'jij', 'goed', 'echt', 'gewoon', 'weer', 'nou', 'hoor', 'mensen']
+Topic 8: ['wel', 'jij', 'goed', 'echt', 'weer', 'mensen', 'gewoon', 'nou', 'weet']
+Topic 9: ['jij', 'wel', 'nou', 'lekker', 'hoor', 'echt', 'gewoon', 'ga', 'bent']
+Topic 10: ['wel', 'mensen', 'vaccin', 'goed', 'gaan', 'jij', 'gaat', 'weer', 'corona']
+Topic 11: ['covid19', 'vaccinatie', 'vaccine', 'uitbraak', 'vaccin', 'vaccins', 'virus', 'p
+fizer', 'mrna']
+Topic 12: ['vaccin', 'mensen', 'virus', 'corona', 'jaar', 'vaccinatie', 'vaccins', 'krijgen
+', 'bijwerkingen']
+Topic 13: ['vaccin', 'mensen', 'virus', 'jaar', 'corona', 'vaccins', 'vaccinatie', 'bijwerk
+ingen', 'alle']
+Topic 14: ['jij', 'wel', 'nou', 'hoor', 'echt', 'lekker', 'gewoon', 'goed', 'ga']
+Topic 15: ['jij', 'wel', 'nou', 'hoor', 'lekker', 'echt', 'ga', 'gewoon', 'bent']
+Topic 16: ['mensen', 'wel', 'vaccin', 'goed', 'gaan', 'corona', 'gaat', 'waar', 'alleen']
+Topic 17: ['wel', 'jij', 'goed', 'echt', 'weer', 'gewoon', 'mensen', 'nou', 'hoor']
+Topic 18: ['mensen', 'vaccin', 'corona', 'vaccinatie', 'wel', 'jaar', 'gaan', 'gaat', 'waar
+']
+Topic 19: ['mensen', 'wel', 'vaccin', 'goed', 'gaan', 'corona', 'gaat', 'weer', 'alleen']
+Topic 20: ['mensen', 'wel', 'vaccin', 'goed', 'waar', 'gaat', 'gaan', 'corona', 'alleen']
+Topic 21: ['wel', 'jij', 'echt', 'goed', 'nou', 'weer', 'gewoon', 'hoor', 'lekker']
+Topic 22: ['vaccin', 'mensen', 'virus', 'corona', 'jaar', 'vaccins', 'vaccinatie', 'krijgen
+', 'vaccineren']
+Topic 23: ['vaccin', 'mensen', 'corona', 'vaccinatie', 'virus', 'jaar', 'vaccins', 'alle',
+'maken']
+Topic 24: ['wel', 'jij', 'echt', 'gewoon', 'nou', 'hoor', 'goed', 'lekker', 'weer']
+Topic 25: ['mensen', 'vaccin', 'wel', 'corona', 'gaan', 'vaccinatie', 'gaat', 'vaccineren',
+ 'goed']
+Topic 26: ['wel', 'mensen', 'jij', 'goed', 'gaan', 'weer', 'echt', 'vaccin', 'gaat']
+Topic 27: ['wel', 'jij', 'goed', 'echt', 'weer', 'gewoon', 'nou', 'mensen', 'hoor']
+Topic 28: ['wel', 'jij', 'goed', 'mensen', 'weer', 'echt', 'gewoon', 'weet', 'hoor']
+Topic 29: ['wel', 'jij', 'goed', 'echt', 'weer', 'nou', 'mensen', 'gewoon', 'hoor']
+Topic 30: ['jij', 'wel', 'nou', 'hoor', 'lekker', 'gewoon', 'echt', 'bent', 'denk']
+Topic 31: ['wel', 'jij', 'nou', 'gewoon', 'echt', 'goed', 'hoor', 'lekker', 'weer']
+Topic 32: ['wel', 'mensen', 'goed', 'jij', 'vaccin', 'gaan', 'waar', 'weer', 'gaat']
+Topic 33: ['vaccin', 'mensen', 'virus', 'corona', 'vaccinatie', 'jaar', 'vaccins', 'alle',
+'bijwerkingen']
+Topic 34: ['wel', 'jij', 'goed', 'mensen', 'weer', 'echt', 'gewoon', 'gaan', 'weet']
+Topic 35: ['mensen', 'vaccin', 'corona', 'jaar', 'vaccinatie', 'wel', 'gaat', 'maken', 'gaa
+n']
+Topic 36: ['vaccin', 'mensen', 'corona', 'vaccinatie', 'jaar', 'virus', 'alle', 'maken', 'v
+accineren']
+Topic 37: ['wel', 'jij', 'mensen', 'goed', 'weer', 'echt', 'gaan', 'gewoon', 'gaat']
+Topic 38: ['wel', 'jij', 'goed', 'mensen', 'weer', 'echt', 'gewoon', 'gaan', 'gaat']
+Topic 39: ['jij', 'wel', 'nou', 'lekker', 'gewoon', 'hoor', 'echt', 'ga', 'bent']
+Topic 40: ['jij', 'wel', 'nou', 'hoor', 'lekker', 'echt', 'gewoon', 'ga', 'bent']
+Topic 41: ['jij', 'wel', 'nou', 'lekker', 'hoor', 'echt', 'gewoon', 'bent', 'ga']
+Topic 42: ['vaccin', 'mensen', 'virus', 'corona', 'jaar', 'vaccinatie', 'vaccins', 'vaccine
+ren', 'bijwerkingen']
+Topic 43: ['mensen', 'vaccin', 'wel', 'corona', 'gaan', 'goed', 'gaat', 'waar', 'alleen']
+Topic 44: ['vaccin', 'mensen', 'corona', 'vaccinatie', 'virus', 'jaar', 'alle', 'vaccins',
+'bijwerkingen']
+Topic 45: ['mensen', 'vaccin', 'wel', 'corona', 'gaan', 'gaat', 'goed', 'vaccinatie', 'waar
+']
+Topic 46: ['jij', 'wel', 'nou', 'lekker', 'hoor', 'echt', 'bent', 'gewoon', 'denk']
+Topic 47: ['wel', 'jij', 'mensen', 'goed', 'weer', 'echt', 'gaan', 'gewoon', 'weet']
+Topic 48: ['mensen', 'wel', 'vaccin', 'corona', 'gaan', 'goed', 'gaat', 'waar', 'alleen']
+Topic 49: ['mensen', 'vaccin', 'wel', 'corona', 'goed', 'gaan', 'gaat', 'waar', 'vaccinatie
+']
+
+
+ETM embeddings...
+vectors:  (12597, 300)
+query:  (300,)
+word: corona .. etm neighbors: ['corona', 'mensen', 'moeten', 'hele', 'maken', 'vaccin', 'k
+rijgen', 'nooit', 'steeds', 'dood', 'jaar', 'normaal', 'snel', 'wereld', 'tijd', 'geven', '
+groep', 'ouderen', 'staat', 'pas']
+vectors:  (12597, 300)
+query:  (300,)
+word: vaccin .. etm neighbors: ['vaccin', 'jaar', 'krijgen', 'corona', 'mensen', 'moeten',
+'snel', 'alle', 'ouderen', 'maken', 'bijwerkingen', 'werken', 'minder', 'zoals', 'overleden
+', 'hadden', 'maanden', 'hele', 'staat', 'nodig']
+vectors:  (12597, 300)
+query:  (300,)
+word: covid .. etm neighbors: ['covid', 'virus', 'bijwerkingen', 'lichaam', 'vaccins', 'nie
+uwe', 'zullen', 'testen', 'kinderen', 'bekend', 'alle', 'miljoen', 'vaccin', '10', 'medicij
+nen', 'onderzoek', 'bevolking', 'veilig', 'vaccinaties', 'mogelijk']
+vectors:  (12597, 300)
+query:  (300,)
+word: prik .. etm neighbors: ['prik', 'echt', 'bent', 'niks', 'ander', 'wel', 'gewoon', 'de
+nk', 'hebt', 'af', 'willen', 'neem', 'anders', 'zeker', 'ga', 'eerst', 'mag', 'vind', 'gezo
+nd', 'jij']
+vectors:  (12597, 300)
+query:  (300,)
+word: coronavaccin .. etm neighbors: ['coronavaccin', 'hersenen', 'vaccines', 'toegediend',
+ 'uitbraak', 'eiwit', 'symptomen', 'behandelen', 'genetische', 'stof', 'waaronder', 'bevat'
+, 'sarscov2', 'studies', '16', 'cel', 'code', 'cellen', 'duitse', 'beoordelen']
+vectors:  (12597, 300)
+query:  (300,)
+word: vaccins .. etm neighbors: ['vaccins', 'virus', 'lichaam', 'bijwerkingen', 'onderzoek'
+, 'kinderen', 'nieuwe', '10', 'covid', 'vaccinatie', 'medische', 'vaccinaties', 'informatie
+', 'zeer', 'alle', 'tussen', 'mogelijk', 'zullen', 'artsen', 'miljoen']
