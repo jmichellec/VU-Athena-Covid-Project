@@ -1,0 +1,1132 @@
+TfidfVectorizer()
+-----------------
+False
+-----------------
+[0]
+-------------------
+DATA STATS:  0    70462
+1       68
+Name: labels, dtype: int64
+-------------------
+BASELINE
+              precision    recall  f1-score   support
+
+           0       0.90      1.00      0.95       451
+           1       1.00      0.02      0.04        49
+
+    accuracy                           0.90       500
+   macro avg       0.95      0.51      0.49       500
+weighted avg       0.91      0.90      0.86       500
+
+--------------------------------
+Logistic Regression
+              precision    recall  f1-score   support
+
+           0       0.91      1.00      0.96       451
+           1       1.00      0.14      0.25        49
+
+    accuracy                           0.92       500
+   macro avg       0.96      0.57      0.60       500
+weighted avg       0.92      0.92      0.89       500
+
+LR: ROC-AUC: 0.5714285714285714
+--------------------------------
+XGBoost Random Forest
+              precision    recall  f1-score   support
+
+           0       0.90      1.00      0.95       451
+           1       1.00      0.02      0.04        49
+
+    accuracy                           0.90       500
+   macro avg       0.95      0.51      0.49       500
+weighted avg       0.91      0.90      0.86       500
+
+XGB: ROC-AUC: 0.5102040816326531
+[1]
+-------------------
+DATA STATS:  0    69976
+1      554
+Name: labels, dtype: int64
+-------------------
+BASELINE
+              precision    recall  f1-score   support
+
+           0       0.91      0.99      0.95       451
+           1       0.55      0.12      0.20        49
+
+    accuracy                           0.90       500
+   macro avg       0.73      0.56      0.57       500
+weighted avg       0.88      0.90      0.88       500
+
+--------------------------------
+Logistic Regression
+              precision    recall  f1-score   support
+
+           0       0.92      0.98      0.95       451
+           1       0.52      0.22      0.31        49
+
+    accuracy                           0.90       500
+   macro avg       0.72      0.60      0.63       500
+weighted avg       0.88      0.90      0.89       500
+
+LR: ROC-AUC: 0.601158423458075
+--------------------------------
+XGBoost Random Forest
+              precision    recall  f1-score   support
+
+           0       0.92      0.98      0.95       451
+           1       0.59      0.20      0.30        49
+
+    accuracy                           0.91       500
+   macro avg       0.75      0.59      0.63       500
+weighted avg       0.89      0.91      0.89       500
+
+XGB: ROC-AUC: 0.5942802841757545
+[2]
+-------------------
+DATA STATS:  0    69871
+1      659
+Name: labels, dtype: int64
+-------------------
+BASELINE
+              precision    recall  f1-score   support
+
+           0       0.90      0.98      0.94       451
+           1       0.09      0.02      0.03        49
+
+    accuracy                           0.88       500
+   macro avg       0.50      0.50      0.49       500
+weighted avg       0.82      0.88      0.85       500
+
+--------------------------------
+Logistic Regression
+              precision    recall  f1-score   support
+
+           0       0.90      0.97      0.94       451
+           1       0.18      0.06      0.09        49
+
+    accuracy                           0.88       500
+   macro avg       0.54      0.52      0.51       500
+weighted avg       0.83      0.88      0.85       500
+
+LR: ROC-AUC: 0.5150911805964071
+--------------------------------
+XGBoost Random Forest
+              precision    recall  f1-score   support
+
+           0       0.90      0.98      0.94       451
+           1       0.10      0.02      0.03        49
+
+    accuracy                           0.89       500
+   macro avg       0.50      0.50      0.49       500
+weighted avg       0.82      0.89      0.85       500
+
+XGB: ROC-AUC: 0.5002262545816553
+[0, 1]
+-------------------
+DATA STATS:  0    69917
+1      613
+Name: labels, dtype: int64
+-------------------
+BASELINE
+              precision    recall  f1-score   support
+
+           0       0.91      0.99      0.95       451
+           1       0.58      0.14      0.23        49
+
+    accuracy                           0.91       500
+   macro avg       0.75      0.57      0.59       500
+weighted avg       0.88      0.91      0.88       500
+
+--------------------------------
+Logistic Regression
+              precision    recall  f1-score   support
+
+           0       0.93      0.97      0.95       451
+           1       0.57      0.35      0.43        49
+
+    accuracy                           0.91       500
+   macro avg       0.75      0.66      0.69       500
+weighted avg       0.90      0.91      0.90       500
+
+LR: ROC-AUC: 0.6590569709036608
+--------------------------------
+XGBoost Random Forest
+              precision    recall  f1-score   support
+
+           0       0.92      0.99      0.95       451
+           1       0.65      0.22      0.33        49
+
+    accuracy                           0.91       500
+   macro avg       0.78      0.61      0.64       500
+weighted avg       0.89      0.91      0.89       500
+
+XGB: ROC-AUC: 0.6055930132585184
+[1, 2]
+-------------------
+DATA STATS:  0    69330
+1     1200
+Name: labels, dtype: int64
+-------------------
+BASELINE
+              precision    recall  f1-score   support
+
+           0       0.91      0.97      0.94       451
+           1       0.29      0.12      0.17        49
+
+    accuracy                           0.88       500
+   macro avg       0.60      0.54      0.55       500
+weighted avg       0.85      0.88      0.86       500
+
+--------------------------------
+Logistic Regression
+              precision    recall  f1-score   support
+
+           0       0.93      0.92      0.93       451
+           1       0.32      0.33      0.32        49
+
+    accuracy                           0.87       500
+   macro avg       0.62      0.63      0.62       500
+weighted avg       0.87      0.87      0.87       500
+
+LR: ROC-AUC: 0.6255712928186794
+--------------------------------
+XGBoost Random Forest
+              precision    recall  f1-score   support
+
+           0       0.92      0.93      0.92       451
+           1       0.30      0.29      0.29        49
+
+    accuracy                           0.86       500
+   macro avg       0.61      0.61      0.61       500
+weighted avg       0.86      0.86      0.86       500
+
+XGB: ROC-AUC: 0.6062717770034843
+[0, 2]
+-------------------
+DATA STATS:  0    69805
+1      725
+Name: labels, dtype: int64
+-------------------
+BASELINE
+              precision    recall  f1-score   support
+
+           0       0.90      0.98      0.94       451
+           1       0.17      0.04      0.07        49
+
+    accuracy                           0.89       500
+   macro avg       0.54      0.51      0.50       500
+weighted avg       0.83      0.89      0.85       500
+
+--------------------------------
+Logistic Regression
+              precision    recall  f1-score   support
+
+           0       0.92      0.96      0.94       451
+           1       0.39      0.24      0.30        49
+
+    accuracy                           0.89       500
+   macro avg       0.65      0.60      0.62       500
+weighted avg       0.87      0.89      0.88       500
+
+LR: ROC-AUC: 0.6013846780397303
+--------------------------------
+XGBoost Random Forest
+              precision    recall  f1-score   support
+
+           0       0.91      0.98      0.94       451
+           1       0.41      0.14      0.21        49
+
+    accuracy                           0.90       500
+   macro avg       0.66      0.56      0.58       500
+weighted avg       0.86      0.90      0.87       500
+
+XGB: ROC-AUC: 0.5603420969274627
+[0, 1, 2]
+-------------------
+DATA STATS:  0    69272
+1     1258
+Name: labels, dtype: int64
+-------------------
+BASELINE
+              precision    recall  f1-score   support
+
+           0       0.91      0.97      0.94       451
+           1       0.32      0.14      0.20        49
+
+    accuracy                           0.89       500
+   macro avg       0.62      0.55      0.57       500
+weighted avg       0.85      0.89      0.87       500
+
+--------------------------------
+Logistic Regression
+              precision    recall  f1-score   support
+
+           0       0.94      0.92      0.93       451
+           1       0.38      0.45      0.41        49
+
+    accuracy                           0.87       500
+   macro avg       0.66      0.68      0.67       500
+weighted avg       0.88      0.87      0.88       500
+
+LR: ROC-AUC: 0.6845784877143762
+--------------------------------
+XGBoost Random Forest
+              precision    recall  f1-score   support
+
+           0       0.95      0.92      0.93       451
+           1       0.43      0.53      0.47        49
+
+    accuracy                           0.88       500
+   macro avg       0.69      0.73      0.70       500
+weighted avg       0.90      0.88      0.89       500
+
+XGB: ROC-AUC: 0.7265034616950994
+True
+-----------------
+[0]
+-------------------
+DATA STATS:  0    70462
+1       68
+Name: labels, dtype: int64
+-------------------
+BASELINE
+              precision    recall  f1-score   support
+
+           0       0.90      1.00      0.95       451
+           1       1.00      0.02      0.04        49
+
+    accuracy                           0.90       500
+   macro avg       0.95      0.51      0.49       500
+weighted avg       0.91      0.90      0.86       500
+
+--------------------------------
+Logistic Regression
+              precision    recall  f1-score   support
+
+           0       0.91      1.00      0.95       451
+           1       0.75      0.06      0.11        49
+
+    accuracy                           0.91       500
+   macro avg       0.83      0.53      0.53       500
+weighted avg       0.89      0.91      0.87       500
+
+LR: ROC-AUC: 0.5295035974478484
+--------------------------------
+XGBoost Random Forest
+              precision    recall  f1-score   support
+
+           0       0.90      1.00      0.95       451
+           1       0.00      0.00      0.00        49
+
+    accuracy                           0.90       500
+   macro avg       0.45      0.50      0.47       500
+weighted avg       0.81      0.90      0.86       500
+
+XGB: ROC-AUC: 0.5
+[1]
+-------------------
+DATA STATS:  0    69976
+1      554
+Name: labels, dtype: int64
+-------------------
+BASELINE
+              precision    recall  f1-score   support
+
+           0       0.91      0.99      0.95       451
+           1       0.55      0.12      0.20        49
+
+    accuracy                           0.90       500
+   macro avg       0.73      0.56      0.57       500
+weighted avg       0.88      0.90      0.88       500
+
+--------------------------------
+Logistic Regression
+              precision    recall  f1-score   support
+
+           0       0.93      0.95      0.94       451
+           1       0.46      0.37      0.41        49
+
+    accuracy                           0.90       500
+   macro avg       0.70      0.66      0.68       500
+weighted avg       0.89      0.90      0.89       500
+
+LR: ROC-AUC: 0.660391872935427
+--------------------------------
+XGBoost Random Forest
+              precision    recall  f1-score   support
+
+           0       0.92      0.96      0.94       451
+           1       0.39      0.27      0.32        49
+
+    accuracy                           0.89       500
+   macro avg       0.66      0.61      0.63       500
+weighted avg       0.87      0.89      0.88       500
+
+XGB: ROC-AUC: 0.6104801122222725
+[2]
+-------------------
+DATA STATS:  0    69871
+1      659
+Name: labels, dtype: int64
+-------------------
+BASELINE
+              precision    recall  f1-score   support
+
+           0       0.90      0.98      0.94       451
+           1       0.09      0.02      0.03        49
+
+    accuracy                           0.88       500
+   macro avg       0.50      0.50      0.49       500
+weighted avg       0.82      0.88      0.85       500
+
+--------------------------------
+Logistic Regression
+              precision    recall  f1-score   support
+
+           0       0.91      0.91      0.91       451
+           1       0.15      0.14      0.15        49
+
+    accuracy                           0.84       500
+   macro avg       0.53      0.53      0.53       500
+weighted avg       0.83      0.84      0.83       500
+
+LR: ROC-AUC: 0.5270826734241367
+--------------------------------
+XGBoost Random Forest
+              precision    recall  f1-score   support
+
+           0       0.91      0.91      0.91       451
+           1       0.15      0.14      0.14        49
+
+    accuracy                           0.83       500
+   macro avg       0.53      0.53      0.53       500
+weighted avg       0.83      0.83      0.83       500
+
+XGB: ROC-AUC: 0.5259740259740259
+[0, 1]
+-------------------
+DATA STATS:  0    69917
+1      613
+Name: labels, dtype: int64
+-------------------
+BASELINE
+              precision    recall  f1-score   support
+
+           0       0.91      0.99      0.95       451
+           1       0.58      0.14      0.23        49
+
+    accuracy                           0.91       500
+   macro avg       0.75      0.57      0.59       500
+weighted avg       0.88      0.91      0.88       500
+
+--------------------------------
+Logistic Regression
+              precision    recall  f1-score   support
+
+           0       0.94      0.93      0.94       451
+           1       0.43      0.47      0.45        49
+
+    accuracy                           0.89       500
+   macro avg       0.69      0.70      0.69       500
+weighted avg       0.89      0.89      0.89       500
+
+LR: ROC-AUC: 0.7014344540476944
+--------------------------------
+XGBoost Random Forest
+              precision    recall  f1-score   support
+
+           0       0.92      0.95      0.94       451
+           1       0.36      0.27      0.31        49
+
+    accuracy                           0.88       500
+   macro avg       0.64      0.61      0.62       500
+weighted avg       0.87      0.88      0.87       500
+
+XGB: ROC-AUC: 0.6071541698719399
+[1, 2]
+-------------------
+DATA STATS:  0    69330
+1     1200
+Name: labels, dtype: int64
+-------------------
+BASELINE
+              precision    recall  f1-score   support
+
+           0       0.91      0.97      0.94       451
+           1       0.29      0.12      0.17        49
+
+    accuracy                           0.88       500
+   macro avg       0.60      0.54      0.55       500
+weighted avg       0.85      0.88      0.86       500
+
+--------------------------------
+Logistic Regression
+              precision    recall  f1-score   support
+
+           0       0.93      0.84      0.88       451
+           1       0.23      0.45      0.30        49
+
+    accuracy                           0.80       500
+   macro avg       0.58      0.64      0.59       500
+weighted avg       0.86      0.80      0.83       500
+
+LR: ROC-AUC: 0.6424498846101634
+--------------------------------
+XGBoost Random Forest
+              precision    recall  f1-score   support
+
+           0       0.94      0.77      0.85       451
+           1       0.20      0.51      0.28        49
+
+    accuracy                           0.75       500
+   macro avg       0.57      0.64      0.56       500
+weighted avg       0.86      0.75      0.79       500
+
+XGB: ROC-AUC: 0.6409113534549075
+[0, 2]
+-------------------
+DATA STATS:  0    69805
+1      725
+Name: labels, dtype: int64
+-------------------
+BASELINE
+              precision    recall  f1-score   support
+
+           0       0.90      0.98      0.94       451
+           1       0.17      0.04      0.07        49
+
+    accuracy                           0.89       500
+   macro avg       0.54      0.51      0.50       500
+weighted avg       0.83      0.89      0.85       500
+
+--------------------------------
+Logistic Regression
+              precision    recall  f1-score   support
+
+           0       0.92      0.90      0.91       451
+           1       0.20      0.24      0.22        49
+
+    accuracy                           0.83       500
+   macro avg       0.56      0.57      0.56       500
+weighted avg       0.85      0.83      0.84       500
+
+LR: ROC-AUC: 0.5703425494366261
+--------------------------------
+XGBoost Random Forest
+              precision    recall  f1-score   support
+
+           0       0.90      0.90      0.90       451
+           1       0.09      0.08      0.08        49
+
+    accuracy                           0.82       500
+   macro avg       0.49      0.49      0.49       500
+weighted avg       0.82      0.82      0.82       500
+
+XGB: ROC-AUC: 0.4931444861758451
+[0, 1, 2]
+-------------------
+DATA STATS:  0    69272
+1     1258
+Name: labels, dtype: int64
+-------------------
+BASELINE
+              precision    recall  f1-score   support
+
+           0       0.91      0.97      0.94       451
+           1       0.32      0.14      0.20        49
+
+    accuracy                           0.89       500
+   macro avg       0.62      0.55      0.57       500
+weighted avg       0.85      0.89      0.87       500
+
+--------------------------------
+Logistic Regression
+              precision    recall  f1-score   support
+
+           0       0.94      0.84      0.89       451
+           1       0.26      0.51      0.34        49
+
+    accuracy                           0.81       500
+   macro avg       0.60      0.67      0.61       500
+weighted avg       0.87      0.81      0.83       500
+
+LR: ROC-AUC: 0.6741707769582334
+--------------------------------
+XGBoost Random Forest
+              precision    recall  f1-score   support
+
+           0       0.94      0.75      0.83       451
+           1       0.20      0.57      0.29        49
+
+    accuracy                           0.73       500
+   macro avg       0.57      0.66      0.56       500
+weighted avg       0.87      0.73      0.78       500
+
+XGB: ROC-AUC: 0.660437123851758
+CountVectorizer(binary=True)
+-----------------
+False
+-----------------
+[0]
+-------------------
+DATA STATS:  0    70462
+1       68
+Name: labels, dtype: int64
+-------------------
+BASELINE
+              precision    recall  f1-score   support
+
+           0       0.90      1.00      0.95       451
+           1       1.00      0.02      0.04        49
+
+    accuracy                           0.90       500
+   macro avg       0.95      0.51      0.49       500
+weighted avg       0.91      0.90      0.86       500
+
+--------------------------------
+Logistic Regression
+              precision    recall  f1-score   support
+
+           0       0.91      1.00      0.95       451
+           1       1.00      0.04      0.08        49
+
+    accuracy                           0.91       500
+   macro avg       0.95      0.52      0.51       500
+weighted avg       0.91      0.91      0.87       500
+
+LR: ROC-AUC: 0.5204081632653061
+--------------------------------
+XGBoost Random Forest
+              precision    recall  f1-score   support
+
+           0       0.90      1.00      0.95       451
+           1       1.00      0.02      0.04        49
+
+    accuracy                           0.90       500
+   macro avg       0.95      0.51      0.49       500
+weighted avg       0.91      0.90      0.86       500
+
+XGB: ROC-AUC: 0.5102040816326531
+[1]
+-------------------
+DATA STATS:  0    69976
+1      554
+Name: labels, dtype: int64
+-------------------
+BASELINE
+              precision    recall  f1-score   support
+
+           0       0.91      0.99      0.95       451
+           1       0.55      0.12      0.20        49
+
+    accuracy                           0.90       500
+   macro avg       0.73      0.56      0.57       500
+weighted avg       0.88      0.90      0.88       500
+
+--------------------------------
+Logistic Regression
+              precision    recall  f1-score   support
+
+           0       0.92      0.98      0.95       451
+           1       0.56      0.18      0.28        49
+
+    accuracy                           0.91       500
+   macro avg       0.74      0.58      0.61       500
+weighted avg       0.88      0.91      0.88       500
+
+LR: ROC-AUC: 0.5840762025431014
+--------------------------------
+XGBoost Random Forest
+              precision    recall  f1-score   support
+
+           0       0.92      0.98      0.95       451
+           1       0.53      0.18      0.27        49
+
+    accuracy                           0.90       500
+   macro avg       0.72      0.58      0.61       500
+weighted avg       0.88      0.90      0.88       500
+
+XGB: ROC-AUC: 0.5829675550929907
+[2]
+-------------------
+DATA STATS:  0    69871
+1      659
+Name: labels, dtype: int64
+-------------------
+BASELINE
+              precision    recall  f1-score   support
+
+           0       0.90      0.98      0.94       451
+           1       0.09      0.02      0.03        49
+
+    accuracy                           0.88       500
+   macro avg       0.50      0.50      0.49       500
+weighted avg       0.82      0.88      0.85       500
+
+--------------------------------
+Logistic Regression
+              precision    recall  f1-score   support
+
+           0       0.90      0.98      0.94       451
+           1       0.10      0.02      0.03        49
+
+    accuracy                           0.89       500
+   macro avg       0.50      0.50      0.49       500
+weighted avg       0.82      0.89      0.85       500
+
+LR: ROC-AUC: 0.5002262545816553
+--------------------------------
+XGBoost Random Forest
+              precision    recall  f1-score   support
+
+           0       0.90      0.98      0.94       451
+           1       0.09      0.02      0.03        49
+
+    accuracy                           0.88       500
+   macro avg       0.50      0.50      0.49       500
+weighted avg       0.82      0.88      0.85       500
+
+XGB: ROC-AUC: 0.4991176071315444
+[0, 1]
+-------------------
+DATA STATS:  0    69917
+1      613
+Name: labels, dtype: int64
+-------------------
+BASELINE
+              precision    recall  f1-score   support
+
+           0       0.91      0.99      0.95       451
+           1       0.58      0.14      0.23        49
+
+    accuracy                           0.91       500
+   macro avg       0.75      0.57      0.59       500
+weighted avg       0.88      0.91      0.88       500
+
+--------------------------------
+Logistic Regression
+              precision    recall  f1-score   support
+
+           0       0.92      0.98      0.95       451
+           1       0.59      0.20      0.30        49
+
+    accuracy                           0.91       500
+   macro avg       0.75      0.59      0.63       500
+weighted avg       0.89      0.91      0.89       500
+
+LR: ROC-AUC: 0.5942802841757545
+--------------------------------
+XGBoost Random Forest
+              precision    recall  f1-score   support
+
+           0       0.93      0.98      0.96       451
+           1       0.69      0.37      0.48        49
+
+    accuracy                           0.92       500
+   macro avg       0.81      0.67      0.72       500
+weighted avg       0.91      0.92      0.91       500
+
+XGB: ROC-AUC: 0.6748042897868681
+[1, 2]
+-------------------
+DATA STATS:  0    69330
+1     1200
+Name: labels, dtype: int64
+-------------------
+BASELINE
+              precision    recall  f1-score   support
+
+           0       0.91      0.97      0.94       451
+           1       0.29      0.12      0.17        49
+
+    accuracy                           0.88       500
+   macro avg       0.60      0.54      0.55       500
+weighted avg       0.85      0.88      0.86       500
+
+--------------------------------
+Logistic Regression
+              precision    recall  f1-score   support
+
+           0       0.92      0.96      0.94       451
+           1       0.32      0.18      0.23        49
+
+    accuracy                           0.88       500
+   macro avg       0.62      0.57      0.58       500
+weighted avg       0.86      0.88      0.87       500
+
+LR: ROC-AUC: 0.5707724331417711
+--------------------------------
+XGBoost Random Forest
+              precision    recall  f1-score   support
+
+           0       0.94      0.91      0.93       451
+           1       0.37      0.47      0.41        49
+
+    accuracy                           0.87       500
+   macro avg       0.65      0.69      0.67       500
+weighted avg       0.88      0.87      0.88       500
+
+XGB: ROC-AUC: 0.6903479795465859
+[0, 2]
+-------------------
+DATA STATS:  0    69805
+1      725
+Name: labels, dtype: int64
+-------------------
+BASELINE
+              precision    recall  f1-score   support
+
+           0       0.90      0.98      0.94       451
+           1       0.17      0.04      0.07        49
+
+    accuracy                           0.89       500
+   macro avg       0.54      0.51      0.50       500
+weighted avg       0.83      0.89      0.85       500
+
+--------------------------------
+Logistic Regression
+              precision    recall  f1-score   support
+
+           0       0.90      0.98      0.94       451
+           1       0.20      0.04      0.07        49
+
+    accuracy                           0.89       500
+   macro avg       0.55      0.51      0.50       500
+weighted avg       0.84      0.89      0.86       500
+
+LR: ROC-AUC: 0.5115389836644192
+--------------------------------
+XGBoost Random Forest
+              precision    recall  f1-score   support
+
+           0       0.92      0.96      0.94       451
+           1       0.39      0.27      0.32        49
+
+    accuracy                           0.89       500
+   macro avg       0.66      0.61      0.63       500
+weighted avg       0.87      0.89      0.88       500
+
+XGB: ROC-AUC: 0.6104801122222725
+[0, 1, 2]
+-------------------
+DATA STATS:  0    69272
+1     1258
+Name: labels, dtype: int64
+-------------------
+BASELINE
+              precision    recall  f1-score   support
+
+           0       0.91      0.97      0.94       451
+           1       0.32      0.14      0.20        49
+
+    accuracy                           0.89       500
+   macro avg       0.62      0.55      0.57       500
+weighted avg       0.85      0.89      0.87       500
+
+--------------------------------
+Logistic Regression
+              precision    recall  f1-score   support
+
+           0       0.92      0.96      0.94       451
+           1       0.37      0.20      0.26        49
+
+    accuracy                           0.89       500
+   macro avg       0.64      0.58      0.60       500
+weighted avg       0.86      0.89      0.87       500
+
+LR: ROC-AUC: 0.583193809674646
+--------------------------------
+XGBoost Random Forest
+              precision    recall  f1-score   support
+
+           0       0.95      0.90      0.92       451
+           1       0.39      0.59      0.47        49
+
+    accuracy                           0.87       500
+   macro avg       0.67      0.74      0.70       500
+weighted avg       0.90      0.87      0.88       500
+
+XGB: ROC-AUC: 0.744920584641839
+True
+-----------------
+[0]
+-------------------
+DATA STATS:  0    70462
+1       68
+Name: labels, dtype: int64
+-------------------
+BASELINE
+              precision    recall  f1-score   support
+
+           0       0.90      1.00      0.95       451
+           1       1.00      0.02      0.04        49
+
+    accuracy                           0.90       500
+   macro avg       0.95      0.51      0.49       500
+weighted avg       0.91      0.90      0.86       500
+
+--------------------------------
+Logistic Regression
+              precision    recall  f1-score   support
+
+           0       0.90      1.00      0.95       451
+           1       0.00      0.00      0.00        49
+
+    accuracy                           0.90       500
+   macro avg       0.45      0.50      0.47       500
+weighted avg       0.81      0.90      0.85       500
+
+LR: ROC-AUC: 0.49889135254988914
+--------------------------------
+XGBoost Random Forest
+              precision    recall  f1-score   support
+
+           0       0.90      1.00      0.95       451
+           1       0.00      0.00      0.00        49
+
+    accuracy                           0.90       500
+   macro avg       0.45      0.50      0.47       500
+weighted avg       0.81      0.90      0.86       500
+
+XGB: ROC-AUC: 0.5
+[1]
+-------------------
+DATA STATS:  0    69976
+1      554
+Name: labels, dtype: int64
+-------------------
+BASELINE
+              precision    recall  f1-score   support
+
+           0       0.91      0.99      0.95       451
+           1       0.55      0.12      0.20        49
+
+    accuracy                           0.90       500
+   macro avg       0.73      0.56      0.57       500
+weighted avg       0.88      0.90      0.88       500
+
+--------------------------------
+Logistic Regression
+              precision    recall  f1-score   support
+
+           0       0.91      0.97      0.94       451
+           1       0.38      0.16      0.23        49
+
+    accuracy                           0.89       500
+   macro avg       0.65      0.57      0.59       500
+weighted avg       0.86      0.89      0.87       500
+
+LR: ROC-AUC: 0.5672202362097832
+--------------------------------
+XGBoost Random Forest
+              precision    recall  f1-score   support
+
+           0       0.94      0.88      0.91       451
+           1       0.31      0.47      0.37        49
+
+    accuracy                           0.84       500
+   macro avg       0.62      0.68      0.64       500
+weighted avg       0.88      0.84      0.86       500
+
+XGB: ROC-AUC: 0.6770442101452555
+[2]
+-------------------
+DATA STATS:  0    69871
+1      659
+Name: labels, dtype: int64
+-------------------
+BASELINE
+              precision    recall  f1-score   support
+
+           0       0.90      0.98      0.94       451
+           1       0.09      0.02      0.03        49
+
+    accuracy                           0.88       500
+   macro avg       0.50      0.50      0.49       500
+weighted avg       0.82      0.88      0.85       500
+
+--------------------------------
+Logistic Regression
+              precision    recall  f1-score   support
+
+           0       0.90      0.96      0.93       451
+           1       0.09      0.04      0.06        49
+
+    accuracy                           0.87       500
+   macro avg       0.50      0.50      0.49       500
+weighted avg       0.82      0.87      0.84       500
+
+LR: ROC-AUC: 0.49823521426308887
+--------------------------------
+XGBoost Random Forest
+              precision    recall  f1-score   support
+
+           0       0.92      0.81      0.86       451
+           1       0.16      0.33      0.21        49
+
+    accuracy                           0.76       500
+   macro avg       0.54      0.57      0.53       500
+weighted avg       0.84      0.76      0.79       500
+
+XGB: ROC-AUC: 0.5668129779628037
+[0, 1]
+-------------------
+DATA STATS:  0    69917
+1      613
+Name: labels, dtype: int64
+-------------------
+BASELINE
+              precision    recall  f1-score   support
+
+           0       0.91      0.99      0.95       451
+           1       0.58      0.14      0.23        49
+
+    accuracy                           0.91       500
+   macro avg       0.75      0.57      0.59       500
+weighted avg       0.88      0.91      0.88       500
+
+--------------------------------
+Logistic Regression
+              precision    recall  f1-score   support
+
+           0       0.92      0.97      0.94       451
+           1       0.41      0.18      0.25        49
+
+    accuracy                           0.89       500
+   macro avg       0.66      0.58      0.60       500
+weighted avg       0.87      0.89      0.88       500
+
+LR: ROC-AUC: 0.5774243178424363
+--------------------------------
+XGBoost Random Forest
+              precision    recall  f1-score   support
+
+           0       0.94      0.84      0.89       451
+           1       0.24      0.47      0.32        49
+
+    accuracy                           0.80       500
+   macro avg       0.59      0.65      0.60       500
+weighted avg       0.87      0.80      0.83       500
+
+XGB: ROC-AUC: 0.6548712611430382
+[1, 2]
+-------------------
+DATA STATS:  0    69330
+1     1200
+Name: labels, dtype: int64
+-------------------
+BASELINE
+              precision    recall  f1-score   support
+
+           0       0.91      0.97      0.94       451
+           1       0.29      0.12      0.17        49
+
+    accuracy                           0.88       500
+   macro avg       0.60      0.54      0.55       500
+weighted avg       0.85      0.88      0.86       500
+
+--------------------------------
+Logistic Regression
+              precision    recall  f1-score   support
+
+           0       0.92      0.93      0.92       451
+           1       0.26      0.22      0.24        49
+
+    accuracy                           0.86       500
+   macro avg       0.59      0.58      0.58       500
+weighted avg       0.85      0.86      0.86       500
+
+LR: ROC-AUC: 0.5767681795556361
+--------------------------------
+XGBoost Random Forest
+              precision    recall  f1-score   support
+
+           0       0.95      0.63      0.75       451
+           1       0.16      0.67      0.26        49
+
+    accuracy                           0.63       500
+   macro avg       0.56      0.65      0.51       500
+weighted avg       0.87      0.63      0.71       500
+
+XGB: ROC-AUC: 0.6504819222589256
+[0, 2]
+-------------------
+DATA STATS:  0    69805
+1      725
+Name: labels, dtype: int64
+-------------------
+BASELINE
+              precision    recall  f1-score   support
+
+           0       0.90      0.98      0.94       451
+           1       0.17      0.04      0.07        49
+
+    accuracy                           0.89       500
+   macro avg       0.54      0.51      0.50       500
+weighted avg       0.83      0.89      0.85       500
+
+--------------------------------
+Logistic Regression
+              precision    recall  f1-score   support
+
+           0       0.90      0.95      0.93       451
+           1       0.08      0.04      0.05        49
+
+    accuracy                           0.86       500
+   macro avg       0.49      0.50      0.49       500
+weighted avg       0.82      0.86      0.84       500
+
+LR: ROC-AUC: 0.4960179193628671
+--------------------------------
+XGBoost Random Forest
+              precision    recall  f1-score   support
+
+           0       0.93      0.78      0.85       451
+           1       0.17      0.43      0.25        49
+
+    accuracy                           0.75       500
+   macro avg       0.55      0.60      0.55       500
+weighted avg       0.85      0.75      0.79       500
+
+XGB: ROC-AUC: 0.6045296167247387
+[0, 1, 2]
+-------------------
+DATA STATS:  0    69272
+1     1258
+Name: labels, dtype: int64
+-------------------
+BASELINE
+              precision    recall  f1-score   support
+
+           0       0.91      0.97      0.94       451
+           1       0.32      0.14      0.20        49
+
+    accuracy                           0.89       500
+   macro avg       0.62      0.55      0.57       500
+weighted avg       0.85      0.89      0.87       500
+
+--------------------------------
+Logistic Regression
+              precision    recall  f1-score   support
+
+           0       0.92      0.93      0.92       451
+           1       0.24      0.20      0.22        49
+
+    accuracy                           0.86       500
+   macro avg       0.58      0.57      0.57       500
+weighted avg       0.85      0.86      0.85       500
+
+LR: ROC-AUC: 0.5676727453730939
+--------------------------------
+XGBoost Random Forest
+              precision    recall  f1-score   support
+
+           0       0.95      0.62      0.75       451
+           1       0.17      0.71      0.28        49
+
+    accuracy                           0.63       500
+   macro avg       0.56      0.67      0.51       500
+weighted avg       0.88      0.63      0.71       500
+
+XGB: ROC-AUC: 0.6686727906240102
